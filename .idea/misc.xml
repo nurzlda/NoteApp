@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/TechLine/AndroidStudioProjects/NoteApp2/app/src/main/res/layout/fragment_add_notes.xml" value="0.1" />
+        <entry key="..\:/Users/TechLine/AndroidStudioProjects/NoteApp2/app/src/main/res/layout/fragment_notes.xml" value="0.1" />
+        <entry key="..\:/Users/TechLine/AndroidStudioProjects/NoteApp2/app/src/main/res/layout/note_item.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
