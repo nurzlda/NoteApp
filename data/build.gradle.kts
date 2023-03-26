@@ -1,3 +1,5 @@
+
+
 plugins {
     id(Plugins.AGP.application)
     id(Plugins.Kotlin.android)
@@ -9,19 +11,11 @@ android {
     compileSdk = AppConfig.compileSdk
 
     defaultConfig {
-
-        applicationId = "com.example.notes"
         minSdk = AppConfig.minSdk
         targetSdk = AppConfig.targetSdk
-        versionCode = AppConfig.versionCode
-        versionName = AppConfig.versionName
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-    }
-
-
-    buildFeatures {
-        viewBinding = true
+        //consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
@@ -44,19 +38,7 @@ android {
 
 dependencies {
 
-    implementation(project(":data"))
     implementation(project(":domain"))
-
-    implementation(Dependencies.UI.core)
-    implementation(Dependencies.UI.appcompat)
-    implementation(Dependencies.UI.material)
-    implementation(Dependencies.UI.constraintLayout)
-    implementation(Dependencies.UI.lifecycleViewModel)
-
-    testImplementation(Dependencies.Test.junit)
-    androidTestImplementation(Dependencies.Test.extJunit)
-    androidTestImplementation(Dependencies.Test.espressoCore)
-
     //Room
     implementation(Dependencies.Room.runtime)
     implementation(Dependencies.Room.ktx)
@@ -69,10 +51,4 @@ dependencies {
 
     //Coroutine
     implementation(Dependencies.Coroutine.android)
-
-
-
-    //Navigation
-    implementation(Dependencies.Nav.fragment)
-    implementation(Dependencies.Nav.uiKtx)
 }
