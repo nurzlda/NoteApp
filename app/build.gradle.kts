@@ -44,6 +44,8 @@ android {
 
 dependencies {
 
+    implementation(project(":data"))
+    implementation(project(":domain"))
 
     implementation(Dependencies.UI.core)
     implementation(Dependencies.UI.appcompat)
