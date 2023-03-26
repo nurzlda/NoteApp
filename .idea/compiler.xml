@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.7">
       <module name="NoteApp.app" target="11" />
+      <module name="NoteApp.data" target="11" />
       <module name="NoteApp2.buildSrc" target="11" />
       <module name="NoteApp2.buildSrc.main" target="11" />
       <module name="NoteApp2.buildSrc.test" target="11" />
