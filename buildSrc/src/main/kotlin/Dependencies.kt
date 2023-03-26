@@ -18,6 +18,8 @@ object Plugins {
 
 object Dependencies {
 
+    const val javax = "javax.inject:javax.inject:1"
+    const val gson = "com.google.code.gson:gson:2.9.0"
     object UI {
         const val core = ("androidx.core:core-ktx:${Version.core}")
         const val appcompat = ("androidx.appcompat:appcompat:${Version.appcompat}")
@@ -42,7 +44,7 @@ object Dependencies {
     }
 
     object Coroutine {
-
+        const val coroutinesCore = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
         const val android =("org.jetbrains.kotlinx:kotlinx-coroutines-android:${Version.coroutine}")
     }
 
